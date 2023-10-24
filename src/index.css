@@ -16,3 +16,14 @@ h6 {
 body {
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+  &:visited {
+    color: inherit;
+  }
+}
+:root {
+  --page-padding: 20px;
+  --navbar-height: 80px;
+}
